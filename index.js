@@ -69,3 +69,23 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
     console.log('Running  Genius Server on port', port);
 })
+
+/*
+1.heroku account open
+2.software install
+
+Every project
+1.git init
+2. gitignore (node_modules, .env)
+3. push everything
+4. package.json should have "start": "node index.js", script
+5. process.env.PORT in front of port  number
+6. heroku login
+7.heroku create(only one time for a project)
+8. command: git push heroku main
+
+---------
+update:
+1.git add, git commit -m "",get push and check every thing locally
+2. git push heroku main
+*/
